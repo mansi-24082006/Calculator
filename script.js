@@ -1,8 +1,5 @@
 let result = "";
         let button = document.querySelectorAll(".btn");
-
-        
-
         Array.from(button).forEach((key) => {
             key.addEventListener("click", (e) => {
                 if (e.target.innerHTML == "=") {
